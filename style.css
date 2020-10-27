@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header-large {
+  background: #ff6d00;
+}
+.header-large ul li {
+  padding: 0 10px;
+  list-style: none;
+  float: left;
+}
+.header-large ul li a {
+  text-decoration: none;
+}
+.header-large ul {
+  margin: 0px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header-large ul li.active {
+  background: brown;
+}
+.header-top {
+  background: #ff6d00;
+  height: 76px;
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:after {
+  clear: both;
+  display: table;
+  content: " ";
+}
